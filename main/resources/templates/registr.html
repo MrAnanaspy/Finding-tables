@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<span th:text="${er}"></span>
+<form action="/reg" method="post" th:object="${user}">
+<input name="email" placeholder="email" type="text">
+<input name="nickname" placeholder="nickname" type="text">
+<input type="submit" value="reg">
+</form>
+<a href="/">На главную</a>
+</body>
+</html>

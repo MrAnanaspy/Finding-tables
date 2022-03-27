@@ -1,0 +1,222 @@
+body{
+    background-color:#5D5FEF ;
+font-family: Comic Sans MS;
+color: white;
+}
+
+.Logo{
+    background-color: aliceblue;
+    width: 300px;
+    height: 50px;
+    margin: -5px auto 0 auto;
+    border-radius: 8px;
+    font-size: 26px;
+    color: black;
+}
+.LogoText{
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.Container{
+  margin: auto;
+  max-width: 1146px;
+}
+.menu{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 7% 0 0 0;
+}
+.Navig{
+     display: flex;
+     font-size: 26px;
+}
+.Аccount{
+    display: flex;
+    font-size: 26px;
+}
+.Navig1, .Navig2, .Navig3, .Navig4, .Navig5 {
+   margin-right: 25px ;
+}
+.Navig1, .Navig2, .Navig3, .Navig4, .Navig5{
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Navig1:after, .Navig2:after, .Navig3:after, .Navig4:after, .Navig5:after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.5s;
+}
+
+.Navig1:hover:after, .Navig2:hover:after, .Navig3:hover:after, .Navig4:hover:after, .Navig5:hover:after{
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: width 0.5s;
+}
+
+
+
+.Frame1{
+    position: relative;
+    top: 70px;
+}
+.Frame1Name{
+    background-color: aliceblue;
+    width: 275px;
+    height: 40px;
+    margin: 0 auto 0 auto;
+    border-radius: 30px;
+    font-size: 16px;
+    color: black;
+}
+.Frame1NameText{
+position: relative;
+font-size: 20px;
+left: 20px;
+top: 8px;
+}
+
+.Frame1Massage1{
+    margin-top: 8%;
+    height: 100px;
+    width: 600px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    margin-left:25px ;
+    border-radius: 8px ;
+}
+.Frame1Massage1Text1{
+position: relative;
+left: 30px;
+top: 20px;
+text-align: justify;
+}
+.Frame1Massage2{
+    margin: 0 100px 0 0 ;
+    margin-top: 4%;
+    height: 100px;
+    width: 600px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    margin-left:25px ;
+    border-radius: 8px ;
+    margin-right: 50px ;
+}
+.Frame1Massage2Right{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    }
+.Frame1Massage1Text2 {
+position: relative;
+left: 30px;
+top: 25px;
+text-align: justify;
+}
+.Frame1Massage3{
+    position: relative;
+    display: flex;
+    margin-top: 4%;
+    height: 100px;
+    width: 600px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    margin-left:25px ;
+    border-radius: 8px ;
+}
+.Frame1Massage1Text3 {
+position: relative;
+left: 45px;
+top: 20px;
+text-align: justify;
+}
+
+
+
+.Frame2{
+    margin: 6% 0 0 0;
+}
+.Frame2Line{
+    display: inline-block;
+    margin-top: 70px ;
+    width: 100%;
+    height: 10px;
+    border-radius: 8px;
+    background-color: white;
+}
+.Frame2Line2{
+ display: inline-block;
+ margin:  0 auto 0 auto;
+ height: 0px;
+ width: 0px;
+ border: 29px solid transparent;
+ border-radius:4px ;
+ border-top-color: rgb(255, 255, 255);
+ bottom: -20px;
+ left: calc(50% - 10px);
+  position: relative;
+ bottom: -1px;
+}
+.Frame2FavaritGame{
+ display: flex;
+ justify-content: space-between;
+}
+.LogoGame11{
+    overflow: hidden;
+    position: relative;
+    left: 25px;
+width: 200px;
+height: 300px;
+background: #ffffff;
+border-radius: 100px/150px;
+}
+.LogoGame12{
+    display: block;
+    width: 250px;
+    height: 75px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    position: relative;
+    bottom: 30px;
+}
+
+.Frame3Game2Right , .Frame3Game1Right, .Frame3Game3Right{
+
+    margin: 100px 0 0 100px ;
+    font-size: 24px;
+    width: 900px;
+
+}
+.Frame3Game3, .Frame3Game2, .Frame3Game1{
+display: flex;
+justify-content: space-between;}
